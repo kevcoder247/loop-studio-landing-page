@@ -11,52 +11,74 @@ html {
 }
 
 body{
-  background-color: black;
+  background-color: grey;
   /* font-family: 'Alata', sans-serif; */
   /* font-family: 'Josefin Sans', sans-serif; */
   padding: 0;
   margin: 0;
 }
 
-nav{
+header{
+  background-color: blueviolet;
+  height: 100vh;
+  margin-top: -16px;
+  background-image: url('../images/mobile/image-hero.jpg');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+}
+nav ul{
   /* background-color: lightblue; */
-  padding: 1rem;
-}
-.nav-header{
-  /* background-color: pink; */
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-img[src="images/logo.svg"]{
-  height: 25px;
-}
-
-img[src="images/icon-close.svg"]{
-  /* background-color: rgb(111, 0, 19); */
-  height: 24px;
-  margin-right: 5px;
-  font-size: 10px;
-}
-
-a{
-  text-decoration: none;
-  /* color: black; */
-  font-size: 25px;
-  color: #fff;
+  margin-top: 16px;
+  /* display: none; */
 }
 
 li{
   list-style: none;
   /* border: 2px solid red; */
-  padding-bottom: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  
 }
 
-@media screen and (min-width: 800px) {
-  body{
-    background-color: pink;
-  }
+.nav-header{
+  /* border: 2px solid black; */
+  margin-left: -40px;
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.logo{
+  margin-left: 15px;
+  /* background-color: green; */
+}
+
+.hamburger{
+  margin-right: 15px;
+}
+
+
+img[src="images/logo.svg"]{
+  width: 150px;
+}
+
+
+/* 500px and about */
+/* @media(min-width: 500px) {
+  header{
+    background-position: center;
+  }
+
+.hamburger{
+    margin-right: 35px;
+  }
+
+} */
+
+
+/* @media(min-width: 800px){
+  header{
+    background-attachment: fixed;
+    background-size: co;
+  }
+} */
