@@ -158,26 +158,30 @@ img[src="images/logo.svg"]{
   position: absolute;
   top: 1642px;
   left: 42px;
+  z-index: 1;
 }
 
 .soccer-team{
   position: absolute;
   top: 1786px;
   left: 40px;
+  z-index: 1;
 }
 
 .the-grid{
   position: absolute;
   top: 1935px;
   left: 40px;
+  z-index: 1;
 }
 
 .from-up-above{
   position: absolute;
   top: 2077px;
   left: 45px;
+  z-index: 1;
 }
-
+ 
 .pocket-borealis{
   position: absolute;
   top: 2222px;
@@ -188,12 +192,14 @@ img[src="images/logo.svg"]{
   position: absolute;
   top: 2365px;
   left: 40px;
+  z-index: 1;
 }
 
 .make-it-fisheye{
   position: absolute;
   top: 2512px;
   left: 40px;
+  z-index: 1;
 }
 
  img[src="/images/mobile/image-deep-earth.jpg"]{
@@ -207,24 +213,28 @@ img[src="/images/mobile/image-night-arcade.jpg"]{
   width: 100%;
   height: 150px;
   object-fit: scale-down;
+  filter: brightness(48%);
 }
 
 img[src="/images/mobile/image-soccer-team.jpg"]{
   width: 100%;
   height: 150px;
   object-fit: scale-down;
+  filter: brightness(75%);
 }
 
 img[src="/images/mobile/image-grid.jpg"]{
   width: 100%;
   height: 150px;
   object-fit: scale-down;
+  filter: brightness(85%);
 }
 
 img[src="/images/mobile/image-from-above.jpg"]{
   width: 100%;
   height: 150px;
   object-fit: scale-down;
+  filter: brightness(70%);
 }
 
 img[src="/images/mobile/image-pocket-borealis.jpg"]{
@@ -237,12 +247,14 @@ img[src="/images/mobile/image-curiosity.jpg"]{
   width: 100%;
   height: 150px;
   object-fit: scale-down;
+  filter: brightness(68%);
 }
 
 img[src="/images/mobile/image-fisheye.jpg"]{
   width: 100%;
   height: 150px;
   object-fit: scale-down;
+  filter: brightness(50%);
 }
 
 
