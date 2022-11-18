@@ -80,6 +80,7 @@ img[src="images/logo.svg"]{
 .main-container{
   background-color: white;
   margin-top: -20px;
+  padding-bottom: 50px;
 }
 
 .vr-image{
@@ -257,24 +258,55 @@ img[src="/images/mobile/image-fisheye.jpg"]{
   filter: brightness(50%);
 }
 
+.see-all-btn{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
 
 
-/* 500px and about */
-/* @media(min-width: 500px) {
-  header{
-    background-position: center;
-  }
+button{
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #fff;
+  width: 45%;
+}
 
-.hamburger{
-    margin-right: 35px;
-  }
+footer{
+  background-color: black;
+  color: #fff;
+  padding-bottom: 20px;
+}
 
-} */
+.footer-logo{
+  text-align: center;
+ 
+}
 
+a{
+  text-decoration: none;
+}
 
-/* @media(min-width: 800px){
-  header{
-    background-attachment: fixed;
-    background-size: co;
-  }
-} */
+.nav-footer-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+  gap: 15px;
+}
+
+.social-links{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+}
+
+.footer-copyright{
+  text-align: center;
+}
