@@ -67,9 +67,9 @@ img[src="images/logo.svg"]{
   color: #fff;
   border: 2px solid #fff;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 39px;
+  font-size: 34px;
   padding: 30px;
-  padding-left: 16px;
+  padding-left: 25px;
   margin: auto;
   width: 85%;
   text-align: left;
@@ -120,11 +120,13 @@ img[src="images/logo.svg"]{
   width: 90%;
   margin: auto;
   margin-top: -25px;
+  font-weight: normal;
 }
 
 .our{
   position: relative;
-  top: 75px;
+  top: 40px;
+  font-weight: normal;
  }
 
 .gallery{
@@ -133,7 +135,7 @@ img[src="images/logo.svg"]{
   /* display: flex;
   flex-direction: column;
   align-items: flex-end; */
-  margin-top: 100px;
+  margin-top: -10px;
 }
 
 .gallery-cards{
@@ -148,58 +150,61 @@ img[src="images/logo.svg"]{
   font-family: 'Josefin Sans', sans-serif; 
   color: #fff;
   font-size: 24px;
+  text-shadow: 2px 2px 1px rgb(77, 76, 76);
+  border: 1px solid red;
+  width: 40%;
 }
 .deep-earth{
-  position: absolute;
-  top: 1500px;
-  left: 40px;
+  position: relative;
+  top: 140px;
+  left: 18px;
 }
 
 .night-arcade{
-  position: absolute;
-  top: 1642px;
-  left: 42px;
+  position: relative;
+  top: 140px;
+  left: 18px;
   z-index: 1;
 }
 
 .soccer-team{
-  position: absolute;
-  top: 1786px;
-  left: 40px;
+  position: relative;
+  top: 140px;
+  left: 18px;
   z-index: 1;
 }
 
 .the-grid{
-  position: absolute;
-  top: 1935px;
-  left: 40px;
+  position: relative;
+  top: 140px;
+  left: 18px;
   z-index: 1;
 }
 
 .from-up-above{
-  position: absolute;
-  top: 2077px;
-  left: 45px;
+  position: relative;
+  top: 140px;
+  left: 18px;
   z-index: 1;
 }
  
 .pocket-borealis{
-  position: absolute;
-  top: 2222px;
-  left: 49px;
+  position: relative;
+  top: 140px;
+  left: 18px;
 }
 
 .the-curiosity{
-  position: absolute;
-  top: 2365px;
-  left: 40px;
+  position: relative;
+  top: 140px;
+  left: 18px;
   z-index: 1;
 }
 
 .make-it-fisheye{
-  position: absolute;
-  top: 2512px;
-  left: 40px;
+  position: relative;
+  top: 140px;
+  left: 18px;
   z-index: 1;
 }
 
@@ -283,7 +288,8 @@ footer{
 
 .footer-logo{
   text-align: center;
- 
+  padding-top: 50px;
+  padding-bottom: 5x;
 }
 
 a{
@@ -291,10 +297,13 @@ a{
 }
 
 .nav-footer-links{
+  font-family: 'Alata', sans-serif;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 0px;
+  padding-bottom: 20px;
   gap: 15px;
 }
 
@@ -309,4 +318,7 @@ a{
 
 .footer-copyright{
   text-align: center;
+  font-family: 'Alata', sans-serif;
+  color: grey;
+  
 }
