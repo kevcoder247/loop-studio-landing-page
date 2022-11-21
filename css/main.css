@@ -402,23 +402,65 @@ a{
   }
 
   .nav-header{
-    background-color: rgb(20, 5, 5);
+    /* background-color: rgb(20, 5, 5); */
     flex-direction: column;
+    gap: 15px;
   }
-  
+
   .nav-body{
     display: block;
-    border: 2px solid yellow;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    /* border: 2px solid yellow; */
     display: flex;
-    gap: 2px;
+    gap: 50px;
   }
 
   .nav-body a{
     color: #fff;
   }
+  img[src="images/logo.svg"]{
+    width: 200px;
+  }
   
   
   .main-heading{
     color: rgb(131, 255, 122);
+  }
+
+
+  .gallery{
+    background-color: rgb(51, 113, 133);
+    border: 2px solid black;
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    
+
+  }
+
+  .gallery-cards{
+    background-color: grey;
+    border: 1px solid red;
+    width: 25%;
+    height: 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  img{
+    /* display: none; */
+  }
+/* hide the card, then display with JS when see call button is clicked */
+  .hideCard{
+    display: none;
+  }
+
+  .see-all-btn{
+    display: none;
   }
 }
